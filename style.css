@@ -1,0 +1,936 @@
+
+header {
+  margin: 0;
+  padding: 5px 5px 30px;
+  text-align: center;
+}
+
+header > p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.site-title {
+  color: HoneyDew;
+  font-size: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box {  
+  height: 180px;
+  border: 6px solid rgba(255, 255, 255, 0);
+  padding: 10px;
+  /*  box text  */
+  color: white;
+  text-align: center;
+  background: inherit;
+}
+
+.box:hover {
+  border: 6px solid rgba(255, 255, 255, 0.5);
+}
+
+.box p {
+  position:relative;
+  top: 20%;
+}
+
+.container-fluid {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.yourColors > button {
+  display: block;
+  background: inherit;
+  border: 2px solid;
+  font-weight: 600;
+  font-size: inherit;
+  font-family: inherit;
+  margin-bottom: 1.5em;
+  padding: 4px 10px;
+}
+
+/* 
+147 Class Selectors
+*/
+
+.ab-bg,
+.aliceblue-bg {
+  background: AliceBlue;
+  color: #262626;
+}
+
+.aw-bg,
+.antiquewhite-bg {
+  background: AntiqueWhite;
+  color: #262626;
+}
+
+.aqua-bg,
+.aq-bg {
+  background: Aqua;
+  color: #262626;
+}
+
+.am-bg,
+.aquamarine-bg {
+  background: Aquamarine;
+  color: #262626;
+}
+
+.azure-bg,
+.az-bg {
+  background: Azure;
+  color: #262626;
+}
+
+.beige-bg,
+.be-bg {
+  background: Beige;
+  color: #262626;
+}
+
+.bisque-bg,
+.bi-bg {
+  background: Bisque;
+  color: #262626;
+}
+
+.black-bg,
+.k-bg {
+  background: Black;
+  color: #ffffff;
+}
+
+.ba-bg,
+.blanchedalmond-bg {
+  background: BlanchedAlmond;
+  color: #262626;
+}
+
+.blue-bg,
+.b-bg {
+  background: Blue;
+  color: #ffffff;
+}
+
+.bv-bg,
+.blueviolet-bg {
+  background: BlueViolet;
+  color: #ffffff;
+}
+
+.brown-bg,
+.bn-bg {
+  background: Brown;
+  color: #ffffff;
+}
+
+.bw-bg,
+.burlywood-bg {
+  background: BurlyWood;
+  color: #ffffff;
+}
+
+.cb-bg,
+.cadetblue-bg {
+  background: CadetBlue;
+  color: #ffffff;
+}
+
+.chartreuse-bg,
+.ca-bg {
+  background: Chartreuse;
+  color: #ffffff;
+}
+
+.chocolate-bg,
+.ch-bg {
+  background: Chocolate;
+  color: #ffffff;
+}
+
+.coral-bg,
+.co-bg {
+  background: Coral;
+  color: #ffffff;
+}
+
+.cfb-bg,
+.cf-bg,
+.cornflowerblue-bg {
+  background: CornflowerBlue;
+  color: #ffffff;
+}
+
+.cs-bg,
+.cornsilk-bg {
+  background: Cornsilk;
+  color: #262626;
+}
+
+.crimson-bg,
+.cr-bg {
+  background: Crimson;
+  color: #ffffff;
+}
+
+.cyan-bg,
+.c-bg {
+  background: Cyan;
+  color: #262626;
+}
+
+.db-bg,
+.darkblue-bg {
+  background: DarkBlue;
+  color: #ffffff;
+}
+
+.dc-bg,
+.darkcyan-bg {
+  background: DarkCyan;
+  color: #ffffff;
+}
+
+.dgr-bg,
+.darkgoldenrod-bg {
+  background: DarkGoldenRod;
+  color: #ffffff;
+}
+
+.darkgrey-bg,
+.darkgray-bg,
+.de-bg {
+  background: DarkGray;
+  background: #A9A9A9;
+  color: #ffffff;
+}
+
+.dg-bg,
+.darkgreen-bg {
+  background: DarkGreen;
+  color: #ffffff;
+}
+
+.dk-bg,
+.darkkhaki-bg {
+  background: DarkKhaki;
+  color: #ffffff;
+}
+
+.dm-bg,
+.darkmagenta-bg {
+  background: DarkMagenta;
+  color: #ffffff;
+}
+
+.dog-bg,
+.darkolivegreen-bg {
+  background: DarkOliveGreen;
+  color: #ffffff;
+}
+
+.darkorange-bg,
+.do-bg {
+  background: Darkorange;
+  color: #ffffff;
+}
+
+.darkorchid-bg,
+.dh-bg {
+  background: DarkOrchid;
+  color: #ffffff;
+}
+
+.dr-bg,
+.darkred-bg {
+  background: DarkRed;
+  color: #ffffff;
+}
+
+.darksalmon-bg,
+.ds-bg {
+  background: DarkSalmon;
+  color: #ffffff;
+}
+
+.dsg-bg,
+.darkseagreen-bg {
+  background: DarkSeaGreen;
+  color: #ffffff;
+}
+
+.dsb-bg,
+.darkslateblue-bg {
+  background: DarkSlateBlue;
+  color: #ffffff;
+}
+
+.dsgrey-bg,
+.dsgray-bg,
+.dse-bg,
+.darkslategray-bg,
+.darkslategrey-bg {
+  background: DarkSlateGray;
+  color: #ffffff;
+}
+
+.dt-bg,
+.darkturquoise-bg {
+  background: DarkTurquoise;
+  color: #ffffff;
+}
+
+.dv-bg,
+.darkviolet-bg {
+  background: DarkViolet;
+  color: #ffffff;
+}
+
+.dp-bg,
+.deeppink-bg {
+  background: DeepPink;
+  color: #ffffff;
+}
+
+.deepskyblue-bg,
+.dyb-bg {
+  background: DeepSkyBlue;
+  color: #ffffff;
+}
+
+.dimgrey-bg,
+.dimgray-bg,
+.di-bg {
+  background: DimGray;
+  color: #ffffff;
+}
+
+.dodgerblue-bg,
+.dob-bg {
+  background: DodgerBlue;
+  color: #ffffff;
+}
+
+.fb-bg,
+.firebrick-bg {
+  background: FireBrick;
+  color: #ffffff;
+}
+
+.fw-bg,
+.floralwhite-bg {
+  background: FloralWhite;
+  color: #262626;
+}
+
+.fg-bg,
+.forestgreen-bg {
+  background: ForestGreen;
+  color: #ffffff;
+}
+
+.fuchsia-bg,
+.fu-bg {
+  background: Fuchsia;
+  color: #ffffff;
+}
+
+.gb-bg,
+.gainsboro-bg {
+  background: Gainsboro;
+  color: #262626;
+}
+
+.gw-bg,
+.ghostwhite-bg {
+  background: GhostWhite;
+  color: #262626;
+}
+
+.gold-bg,
+.gd-bg {
+  background: Gold;
+  color: #262626;
+}
+
+.gr-bg,
+.goldenrod-bg {
+  background: GoldenRod;
+  color: #ffffff;
+}
+
+.grey-bg,
+.gray-bg,
+.ge-bg {
+  background: Gray;
+  color: #ffffff;
+}
+
+.green-bg,
+.g-bg {
+  background: Green;
+  color: #ffffff;
+}
+
+.gy-bg,
+.greenyellow-bg {
+  background: GreenYellow;
+  color: #262626;
+}
+
+.hd-bg,
+.honeydew-bg{
+  background: HoneyDew;
+  color: #262626;
+}
+
+.hp-bg,
+.hotpink-bg {
+  background: HotPink;
+  color: #ffffff;
+}
+
+.ir-bg,
+.indianred-bg {
+  background: IndianRed;
+  color: #ffffff;
+}
+
+.indigo-bg,
+.ig-bg {
+  background: Indigo;
+  color: #ffffff;
+}
+
+.ivory-bg,
+.iv-bg {
+  background: Ivory;
+  color: #262626;
+}
+
+.khaki-bg,
+.kh-bg {
+  background: Khaki;
+  color: #262626;
+}
+
+.lav-bg,
+.lv-bg,
+.lavender-bg {
+  background: Lavender;
+  color: #262626;
+}
+
+.lavblush-bg,
+.lr-bg,
+.lavenderblush-bg {
+  background: LavenderBlush;
+  color: #262626;
+}
+
+.lawngreen-bg,
+.ln-bg {
+  background: LawnGreen;
+  color: #ffffff;
+}
+
+.lf-bg,
+.lemonchiffon-bg {
+  background: LemonChiffon;
+  color: #262626;
+}
+
+.lb-bg,
+.lightblue-bg {
+  background: LightBlue;
+  color: #262626;
+}
+
+.ltcoral-bg,
+.la-bg,
+.lightcoral-bg {
+  background: LightCoral;
+  color: #262626;
+}
+
+.ltcyan-bg,
+.ltc-bg,
+.lc-bg,
+.lightcyan-bg {
+  background: LightCyan;
+  color: #262626;
+}
+
+.lgry-bg,
+.lightgoldenrodyellow-bg {
+  background: LightGoldenRodYellow;
+  color: #262626;
+}
+
+.lightgray-bg,
+.lightgrey-bg,
+.le-bg {
+  background: LightGray;
+  color: #262626;
+}
+
+.lightgreen-bg,
+.ltgreen-bg,
+.ltgrn-bg,
+.lg-bg {
+  background: LightGreen;
+  color: #262626;
+}
+
+.lightpink-bg,
+.ltpink-bg,
+.lp-bg {
+  background: LightPink;
+  color: #262626;
+}
+
+.lightsalmon-bg,
+.ls-bg {
+  background: LightSalmon;
+  color: #262626;
+}
+
+.lightseagreen-bg,
+.ltseagrn-bg,
+.lsg-bg {
+  background: LightSeaGreen;
+  color: #ffffff;
+}
+
+.lightskyblue-bg,
+.lsb-bg {
+  background: LightSkyBlue;
+  color: #262626;
+}
+
+.lightslategrey-bg,
+.lightslategray-bg,
+.ltslgy-bg,
+.lsgry-bg,
+.lse-bg {
+  background: LightSlateGray;
+  color: #ffffff;
+}
+
+.lightsteelblue-bg,
+.ltsteelblue-bg,
+.ltstbl-bg,
+.lsl-bg {
+  background: LightSteelBlue;
+  color: #262626;
+}
+
+.lightyellow-bg,
+.ly-bg {
+  background: LightYellow;
+  color: #262626;
+}
+
+.lime-bg,
+.lm-bg {
+  background: Lime;
+  color: #262626;
+}
+
+.limegreen-bg,
+.lmg-bg {
+  background: LimeGreen;
+  color: #ffffff;
+}
+
+.linen-bg,
+.li-bg {
+  background: Linen;
+  color: #262626;
+}
+
+.magenta-bg,
+.m-bg {
+  background: Magenta;
+  color: #ffffff;
+}
+
+.maroon-bg,
+.ma-bg {
+  background: Maroon;
+  color: #ffffff;
+}
+
+.medaquamarine-bg,
+.mam-bg,
+.mediumaquamarine-bg {
+  background: MediumAquaMarine;
+  color: #ffffff;
+}
+
+.mediumblue-bg,
+.medblue-bg,
+.mb-bg {
+  background: MediumBlue;
+  color: #ffffff;
+}
+
+.mediumorchard-bg,
+.medorchid-bg,
+.mo-bg {
+  background: MediumOrchid;
+  color: #ffffff;
+}
+
+.mediumpurple-bg,
+.medpurple-bg,
+.mp-bg {
+  background: MediumPurple;
+  color: #ffffff;
+}
+
+.mediumseagreen-bg,
+.medseagreen-bg,
+.mdsegr-bg,
+.msg-bg {
+  background: MediumSeaGreen;
+  color: #ffffff;
+}
+
+.mediumslateblue-bg,
+.medslateblue-bg,
+.mdslbl-bg,
+.msb-bg {
+  background: MediumSlateBlue;
+  color: #ffffff;
+}
+
+.mediumspringgreen-bg,
+.medspringgreen-bg,
+.mdspgr-bg,
+.mspg-bg,
+.mpg-bg {
+  background: MediumSpringGreen;
+  color: #262626;
+}
+
+.mediumturquoise-bg,
+.medturquoise-bg,
+.mt-bg {
+  background: MediumTurquoise;
+  color: #ffffff;
+}
+
+.mediumvioletred-bg,
+.medvioletred-bg,
+.mvr-bg {
+  background: MediumVioletRed;
+  color: #ffffff;
+}
+
+.midnightblue-bg,
+.midblue-bg,
+.mib-bg {
+  background: MidnightBlue;
+  color: #ffffff;
+}
+
+.mintcream-bg,
+.mc-bg {
+  background: MintCream;
+  color: #262626;
+}
+
+.mistyrose-bg,
+.mr-bg {
+  background: MistyRose;
+  color: #262626;
+}
+
+.mocassin-bg,
+.mn-bg {
+  background: Moccasin;
+  color: #262626;
+}
+
+.navajowhite-bg,
+.nw-bg {
+  background: NavajoWhite;
+  color: #262626;
+}
+
+.navy-bg,
+.na-bg {
+  background: Navy;
+  color: #ffffff;
+}
+
+.oldlace-bg,
+.ol-bg {
+  background: OldLace;
+  color: #262626;
+}
+
+.olive-bg,
+.oi-bg {
+  background: Olive;
+  color: #ffffff;
+}
+
+.olivedrab-bg,
+.od-bg {
+  background: OliveDrab;
+  color: #ffffff;
+}
+
+.orange-bg,
+.o-bg {
+  background: Orange;
+  color: #ffffff;
+}
+
+.orangered-bg,
+.or-bg {
+  background: OrangeRed;
+  color: #ffffff;
+}
+
+.orchid-bg,
+.oc-bg {
+  background: Orchid;
+  color: #262626;
+}
+
+.palegoldenrod-bg,
+.pgr-bg {
+  background: PaleGoldenRod;
+  color: #262626;
+}
+
+.palegreen-bg,
+.pg-bg {
+  background: PaleGreen;
+  color: #262626;
+}
+
+.paleturquoise-bg,
+.pt-bg {
+  background: PaleTurquoise;
+  color: #262626;
+}
+
+.palevioletred-bg,
+.pvr-bg {
+  background: PaleVioletRed;
+  color: #ffffff;
+}
+
+.papyawhip-bg,
+.pw-bg {
+  background: PapayaWhip;
+  color: #262626;
+}
+
+.peachpuff-bg,
+.pp-bg {
+  background: PeachPuff;
+  color: #262626;
+}
+
+.peru-bg,
+.pe-bg {
+  background: Peru;
+  color: #ffffff;
+}
+
+.pink-bg,
+.pi-bg {
+  background: Pink;
+  color: #262626;
+}
+
+.plum-bg,
+.pl-bg {
+  background: Plum;
+  color: #ffffff;
+}
+
+.powderblue-bg,
+.pb-bg {
+  background: PowderBlue;
+  color: #262626;
+}
+
+.purple-bg,
+.pr-bg {
+  background: Purple;
+  color: #ffffff;
+}
+
+.red-bg,
+.r-bg {
+  background: Red;
+  color: #ffffff;
+}
+
+.rosybrown-bg,
+.rbrn-bg,
+.rr-bg {
+  background: RosyBrown;
+  color: #ffffff;
+}
+
+.royalblue-bg,
+.rb-bg {
+  background: RoyalBlue;
+  color: #ffffff;
+}
+
+.saddlebrown-bg,
+.swn-bg {
+  background: SaddleBrown;
+  color: #ffffff;
+}
+
+.salmon-bg,
+.sa-bg {
+  background: Salmon;
+  color: #ffffff;
+}
+
+.sandybrown-bg,
+.sw-bg {
+  background: SandyBrown;
+  color: #262626;
+}
+
+.seagreen-bg,
+.sg-bg {
+  background: SeaGreen;
+  color: #ffffff;
+}
+
+.seashell-bg,
+.ss-bg {
+  background: SeaShell;
+  color: #262626;
+}
+
+.sienna-bg,
+.sn-bg {
+  background: Sienna;
+  color: #ffffff;
+}
+
+.silver-bg,
+.si-bg {
+  background: Silver;
+  color: #262626;
+}
+
+.skyblue-bg,
+.sb-bg {
+  background: SkyBlue;
+  color: #262626;
+}
+
+.slateblue-bg,
+.sl-bg {
+  background: SlateBlue;
+  color: #ffffff;
+}
+
+.slategrey-bg,
+.slategray-bg,
+.se-bg {
+  background: SlateGray;
+  color: #ffffff;
+}
+
+.snow-bg,
+.so-bg {
+  background: Snow;
+  color: #262626;
+}
+
+.springreen-bg,
+.sr-bg {
+  background: SpringGreen;
+  color: #262626;
+}
+
+.steelblue-bg,
+.su-bg {
+  background: SteelBlue;
+  color: #ffffff;
+}
+
+.tan-bg,
+.ta-bg {
+  background: Tan;
+  color: #262626;
+}
+
+.teal-bg,
+.te-bg {
+  background: Teal;
+  color: #ffffff;
+}
+
+.thistle-bg,
+.th-bg {
+  background: Thistle;
+  color: #262626;
+}
+
+.tomato-bg,
+.to-bg {
+  background: Tomato;
+  color: #ffffff;
+}
+
+.turquoise-bg,
+.tu-bg {
+  background: Turquoise;
+  color: #262626;
+}
+
+.violet-bg,
+.v-bg {
+  background: Violet;
+  color: #262626;
+}
+
+.wheat-bg,
+.wh-bg {
+  background: Wheat;
+  color: #262626;
+}
+
+.white-bg,
+.w-bg {
+  background: White;
+  color: #262626;
+}
+
+.whitesmoke-bg,
+.ws-bg {
+  background: WhiteSmoke;
+  color: #262626;
+}
+
+.yellow-bg,
+.y-bg {
+  background: Yellow;
+  color: #262626;
+}
+
+.yellowgreen-bg,
+.yg-bg {
+  background: YellowGreen;
+  color: #ffffff;
+}
