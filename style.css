@@ -35,6 +35,10 @@ header > p {
   top: 20%;
 }
 
+.box p:first-of-type {
+  font-weight: 700;
+}
+
 .container-fluid {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
