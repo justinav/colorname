@@ -1,18 +1,18 @@
 $(document).ready(function() {
-  
+
 
   // 	pick any color you like
   $(".box").click(function() {
     $(this).clone().appendTo("#colors");
   });
-  
+
   //  startover
 	$("button").click(function() {
     $("#colors").empty();
   });
-  
 
-  
+
+
   //   function by jave.web on stackoverflow
   function getHexColor( color ){
     //if color is already in hex, just return it...
@@ -36,15 +36,15 @@ $(document).ready(function() {
             + ( '0' + parseInt(color[1], 10).toString(16) ).slice(-2)
             + ( '0' + parseInt(color[2], 10).toString(16) ).slice(-2);
   }
-  
-  //   appends hex & rgb values  
+
+  //   appends hex & rgb values
   $('.box').each(function(){
     var getRGB = $(this).closest('.box').css('background-color');
     var getHex = getHexColor($(this).closest('.box').css('background-color'));
     $(this).append(
-      '<p>' + getRGB + '</p>' + 
+      '<p>' + getRGB + '</p>' +
       '<p>' + getHex + '</p>'
     );
-  }); 
+  });
 
 });
