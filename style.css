@@ -1,47 +1,64 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 400;
+}
 
 header,
 footer {
   margin: 0;
-  padding: 30px 5px;
-  text-align: center;
-  background: GhostWhite;
+  padding: 1em;
+  background: SeaShell;
 }
 
-header > p {
-  font-size: 16px;
-  letter-spacing: 1px;
+.container {
+padding: 1em;
+max-width: 1230px;
+margin: 1em auto;
 }
 
-.site-title {
-  font-size: 100px;
-  font-weight: 700;
+.grid:before,
+.grid:after {
+content: '';
+display: block;
 }
 
-.box {  
-  height: 180px;
-  border: 6px solid rgba(255, 255, 255, 0);
-  padding: 10px;
-  /*  box text  */
-  text-align: center;
+.grid:after {
+clear: both;
+}
+
+.box {
   background: inherit;
+  border: 6px solid rgba(255, 255, 255, 0);
+  flex: auto;
+  float: left;
+  height: 200px;
+  line-height: 1;
+  padding: 2.6em 1em;
+  text-align: center;
+  width: 200px;
 }
 
 .box:hover {
   border: 6px solid rgba(255, 255, 255, 0.5);
 }
 
-.box p {
-  position:relative;
-  top: 20%;
-}
-
 .box p:first-of-type {
   font-weight: 700;
-}
-
-.container-fluid {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
 }
 
 button {
@@ -55,7 +72,14 @@ button {
   padding: 4px 10px;
 }
 
-/* 
+.site-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/*
 147 Class Selectors
 */
 
