@@ -26,20 +26,16 @@ footer {
 }
 
 .container {
-<<<<<<< HEAD
   padding: 1em;
   max-width: 1230px;
   margin: 1em auto;
-=======
-padding: 1em;
-max-width: 1230px;
-margin: 1em auto;
->>>>>>> d8f3b01a226a89761bcac3385d2d8f6483f318b7
+  padding: 1em;
+  max-width: 1230px;
+  margin: 1em auto;
 }
 
 .grid:before,
 .grid:after {
-<<<<<<< HEAD
   content: '';
   display: block;
 }
@@ -48,16 +44,6 @@ margin: 1em auto;
   clear: both;
 }
 
-=======
-content: '';
-display: block;
-}
-
-.grid:after {
-clear: both;
-}
-
->>>>>>> d8f3b01a226a89761bcac3385d2d8f6483f318b7
 .box {
   background: inherit;
   border: 6px solid rgba(255, 255, 255, 0);
@@ -65,17 +51,14 @@ clear: both;
   float: left;
   height: 200px;
   line-height: 1;
-<<<<<<< HEAD
   text-align: center;
   min-width: 120px;
   height: auto;
   padding: .2em;
   overflow: hidden;
-=======
   padding: 2.6em 1em;
   text-align: center;
   width: 200px;
->>>>>>> d8f3b01a226a89761bcac3385d2d8f6483f318b7
 }
 
 @media screen and (min-width: 1200px) {
@@ -84,7 +67,6 @@ clear: both;
   }
 }
 
-<<<<<<< HEAD
 @media screen and (max-width:1199px) and (min-width:600px) {
   .box {
     width: 25%;
@@ -105,12 +87,10 @@ clear: both;
   font-weight: 700;
 }
 
-=======
 .box p:first-of-type {
   font-weight: 700;
 }
 
->>>>>>> d8f3b01a226a89761bcac3385d2d8f6483f318b7
 button {
   display: block;
   background: inherit;
