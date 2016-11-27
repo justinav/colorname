@@ -62,13 +62,13 @@ footer {
   }
 }
 
-@media screen and (max-width:1199px) and (min-width:600px) {
+@media screen and (max-width:1199px) and (min-width:700px) {
   .box {
     width: 25%;
   }
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:699px) {
   .box {
     width: 50%;
   }
