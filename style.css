@@ -47,18 +47,13 @@ footer {
 .box {
   background: inherit;
   border: 6px solid rgba(255, 255, 255, 0);
-  flex: auto;
   float: left;
-  height: 200px;
-  line-height: 1;
-  text-align: center;
-  min-width: 120px;
   height: auto;
-  padding: .2em;
+  line-height: 1;
+  min-width: 120px;
   overflow: hidden;
-  padding: 2.6em 1em;
+  padding: .2em;
   text-align: center;
-  width: 200px;
 }
 
 @media screen and (min-width: 1200px) {
