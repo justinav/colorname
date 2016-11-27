@@ -18,6 +18,13 @@ body {
   font-weight: 400;
 }
 
+/*a,
+a:active,
+a:visited,
+a:hover {
+  color: inherit;
+}*/
+
 header,
 footer {
   margin: 0;
@@ -56,30 +63,8 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 1200px) {
-  .box {
-    width: 16.666%;
-  }
-}
-
-@media screen and (max-width:1199px) and (min-width:700px) {
-  .box {
-    width: 25%;
-  }
-}
-
-@media screen and (max-width:699px) {
-  .box {
-    width: 50%;
-  }
-}
-
 .box:hover {
   border: 6px solid rgba(255, 255, 255, 0.5);
-}
-
-.box p:first-of-type {
-  font-weight: 700;
 }
 
 .box p:first-of-type {
@@ -985,4 +970,22 @@ button {
 .yg-bg {
   background: YellowGreen;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    width: 16.666%;
+  }
+}
+
+@media screen and (max-width:1199px) and (min-width:700px) {
+  .box {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:699px) {
+  .box {
+    width: 50%;
+  }
 }
