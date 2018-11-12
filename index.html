@@ -1,190 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="a JavaScript-based tool for selecting colors">
-  <meta name="author" content="Justina Villanueva">
-  <title>a Color Name Tool</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="a JavaScript-based tool for selecting colors"
+    />
+    <meta name="author" content="Justina Villanueva" />
+    <title>a Color Name Tool</title>
 
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="script.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="script.js" type="text/javascript"></script>
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+    <!--
+      HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<body>
-  <header class="grid">
-    <h1 class="site-title">Color Name</h1>
-    <p>Click on boxes to gather quick color combinations.</p>
-  </header>
+  <body>
+    <header class="grid">
+      <h1 class="site-title">Color Name</h1>
+      <p>Click on boxes to gather quick color combinations.</p>
+    </header>
 
-  <div class="container" id="yourColors">
-    <h2>Your Colors</h2>
-    <p>click any color below to add to your list of colors</p>
-    <button>clear</button>
-    <div class="grid" id="colors"></div>
-  </div>
-
-  <!--    color palettes       -->
-
-  <section class="container" id="147">
-    <h2>147 Colors</h2>
-    <div class="grid">
-      <div class="ab-bg box" id="box"><p>AliceBlue</p></div>
-      <div class="aw-bg box"><p>AntiqueWhite</p></div>
-      <div class="aq-bg box"><p>Aqua</p></div>
-      <div class="am-bg box"><p>Aquamarine</p></div>
-      <div class="az-bg box"><p>Azure</p></div>
-      <div class="be-bg box"><p>Beige</p></div>
-      <div class="bi-bg box"><p>Bisque</p></div>
-      <div class="k-bg box"><p>Black</p></div>
-      <div class="ba-bg box"><p>BlanchedAlmond</p></div>
-      <div class="b-bg box"><p>Blue</p></div>
-      <div class="bv-bg box"><p>BlueViolet</p></div>
-      <div class="bn-bg box"><p>Brown</p></div>
-      <div class="bw-bg box"><p>BurlyWood</p></div>
-      <div class="cb-bg box"><p>CadetBlue</p></div>
-      <div class="ca-bg box"><p>Chartreuse</p></div>
-      <div class="ch-bg box"><p>Chocolate</p></div>
-      <div class="co-bg box"><p>Coral</p></div>
-      <div class="cfb-bg box"><p>CornflowerBlue</p></div>
-      <div class="cs-bg box"><p>Cornsilk</p></div>
-      <div class="crimson-bg box"><p>Crimson</p></div>
-      <div class="c-bg box"><p>Cyan</p></div>
-      <div class="db-bg box"><p>DarkBlue</p></div>
-      <div class="dc-bg box"><p>DarkCyan</p></div>
-      <div class="dgr-bg box"><p>DarkGoldenRod</p></div>
-      <div class="de-bg box"><p>DarkGray</p></div>
-      <div class="dg-bg box"><p>DarkGreen</p></div>
-      <div class="dk-bg box"><p>DarkKhaki</p></div>
-      <div class="dm-bg box"><p>DarkMagenta</p></div>
-      <div class="dog-bg box"><p>DarkOliveGreen</p></div>
-      <div class="do-bg box"><p>DarkOrange</p></div>
-      <div class="dh-bg box"><p>DarkOrchid</p></div>
-      <div class="dr-bg box"><p>DarkRed</p></div>
-      <div class="ds-bg box"><p>DarkSalmon</p></div>
-      <div class="dsg-bg box"><p>DarkSeaGreen</p></div>
-      <div class="dsb-bg box"><p>DarkSlateBlue</p></div>
-      <div class="dse-bg box"><p>DarkSlateGray</p></div>
-      <div class="dt-bg box"><p>DarkTurquoise</p></div>
-      <div class="dv-bg box"><p>DarkViolet</p></div>
-      <div class="dp-bg box"><p>DeepPink</p></div>
-      <div class="dyb-bg box"><p>DeepSkyBlue</p></div>
-      <div class="di-bg box"><p>DimGray</p></div>
-      <div class="dob-bg box"><p>DodgerBlue</p></div>
-      <div class="fb-bg box"><p>FireBrick</p></div>
-      <div class="fw-bg box"><p>FloralWhite</p></div>
-      <div class="fg-bg box"><p>ForestGreen</p></div>
-      <div class="fu-bg box"><p>Fuchsia</p></div>
-      <div class="gb-bg box"><p>Gainsboro</p></div>
-      <div class="gw-bg box"><p>GhostWhite</p></div>
-      <div class="gd-bg box"><p>Gold</p></div>
-      <div class="gr-bg box"><p>GoldenRod</p></div>
-      <div class="ge-bg box"><p>Gray</p></div>
-      <div class="g-bg box"><p>Green</p></div>
-      <div class="gy-bg box"><p>GreenYellow</p></div>
-      <div class="hd-bg box"><p>HoneyDew</p></div>
-      <div class="hp-bg box"><p>HotPink</p></div>
-      <div class="ir-bg box"><p>IndianRed</p></div>
-      <div class="ig-bg box"><p>Indigo</p></div>
-      <div class="iv-bg box"><p>Ivory</p></div>
-      <div class="kh-bg box"><p>Khaki</p></div>
-      <div class="lv-bg box"><p>Lavender</p></div>
-      <div class="lr-bg box"><p>LavenderBlush</p></div>
-      <div class="ln-bg box"><p>LawnGreen</p></div>
-      <div class="lf-bg box"><p>LemonChiffon</p></div>
-      <div class="lb-bg box"><p>LightBlue</p></div>
-      <div class="la-bg box"><p>LightCoral</p></div>
-      <div class="lc-bg box"><p>LightCyan</p></div>
-      <div class="lgry-bg box"><p>LightGoldenRodYellow</p></div>
-      <div class="le-bg box"><p>LightGray</p></div>
-      <div class="lg-bg box"><p>LightGreen</p></div>
-      <div class="lp-bg box"><p>LightPink</p></div>
-      <div class="ls-bg box"><p>LightSalmon</p></div>
-      <div class="lsg-bg box"><p>LightSeaGreen</p></div>
-      <div class="lsb-bg box"><p>LightSkyBlue</p></div>
-      <div class="lse-bg box"><p>LightSlateGray</p></div>
-      <div class="lsl-bg box"><p>LightSteelBlue</p></div>
-      <div class="ly-bg box"><p>LightYellow</p></div>
-      <div class="lm-bg box"><p>Lime</p></div>
-      <div class="lmg-bg box"><p>LimeGreen</p></div>
-      <div class="linen-bg box"><p>Linen</p></div>
-      <div class="m-bg box"><p>Magenta</p></div>
-      <div class="ma-bg box"><p>Maroon</p></div>
-      <div class="mam-bg box"><p>MediumAquaMarine</p></div>
-      <div class="mb-bg box"><p>MediumBlue</p></div>
-      <div class="mo-bg box"><p>MediumOrchid</p></div>
-      <div class="mp-bg box"><p>MediumPurple</p></div>
-      <div class="msg-bg box"><p>MediumSeaGreen</p></div>
-      <div class="msb-bg box"><p>MediumSlateBlue</p></div>
-      <div class="mpg-bg box"><p>MediumSpringGreen</p></div>
-      <div class="mt-bg box"><p>MediumTurquoise</p></div>
-      <div class="mvr-bg box"><p>MediumVioletRed</p></div>
-      <div class="mib-bg box"><p>MidnightBlue</p></div>
-      <div class="mc-bg box"><p>MintCream</p></div>
-      <div class="mr-bg box"><p>MistyRose</p></div>
-      <div class="mn-bg box"><p>Moccasin</p></div>
-      <div class="nw-bg box"><p>NavajoWhite</p></div>
-      <div class="na-bg box"><p>Navy</p></div>
-      <div class="ol-bg box"><p>OldLace</p></div>
-      <div class="oi-bg box"><p>Olive</p></div>
-      <div class="od-bg box"><p>OliveDrab</p></div>
-      <div class="o-bg box"><p>Orange</p></div>
-      <div class="or-bg box"><p>OrangeRed</p></div>
-      <div class="oc-bg box"><p>Orchid</p></div>
-      <div class="pgr-bg box"><p>PaleGoldenRod</p></div>
-      <div class="pg-bg box"><p>PaleGreen</p></div>
-      <div class="pt-bg box"><p>PaleTurquoise</p></div>
-      <div class="pvr-bg box"><p>PaleVioletRed</p></div>
-      <div class="pw-bg box"><p>PapayaWhip</p></div>
-      <div class="pp-bg box"><p>PeachPuff</p></div>
-      <div class="pe-bg box"><p>Peru</p></div>
-      <div class="pi-bg box"><p>Pink</p></div>
-      <div class="pl-bg box"><p>Plum</p></div>
-      <div class="pb-bg box"><p>PowderBlue</p></div>
-      <div class="pr-bg box"><p>Purple</p></div>
-      <div class="r-bg box"><p>Red</p></div>
-      <div class="rr-bg box"><p>RosyBrown</p></div>
-      <div class="rb-bg box"><p>RoyalBlue</p></div>
-      <div class="swn-bg box"><p>SaddleBrown</p></div>
-      <div class="sa-bg box"><p>Salmon</p></div>
-      <div class="sw-bg box"><p>SandyBrown</p></div>
-      <div class="sg-bg box"><p>SeaGreen</p></div>
-      <div class="ss-bg box"><p>SeaShell</p></div>
-      <div class="sn-bg box"><p>Sienna</p></div>
-      <div class="si-bg box"><p>Silver</p></div>
-      <div class="sb-bg box"><p>SkyBlue</p></div>
-      <div class="sl-bg box"><p>SlateBlue</p></div>
-      <div class="se-bg box"><p>SlateGray</p></div>
-      <div class="so-bg box"><p>Snow</p></div>
-      <div class="sr-bg box"><p>SpringGreen</p></div>
-      <div class="su-bg box"><p>SteelBlue</p></div>
-      <div class="ta-bg box"><p>Tan</p></div>
-      <div class="te-bg box"><p>Teal</p></div>
-      <div class="th-bg box"><p>Thistle</p></div>
-      <div class="to-bg box"><p>Tomato</p></div>
-      <div class="tu-bg box"><p>Turquoise</p></div>
-      <div class="v-bg box"><p>Violet</p></div>
-      <div class="wh-bg box"><p>Wheat</p></div>
-      <div class="w-bg box"><p>White</p></div>
-      <div class="ws-bg box"><p>WhiteSmoke</p></div>
-      <div class="y-bg box"><p>Yellow</p></div>
-      <div class="yg-bg box"><p>YellowGreen</p></div>
+    <div class="container" id="yourColors">
+      <h2>Your Colors</h2>
+      <p>click any color below to add to your list of colors</p>
+      <button>clear</button>
+      <div class="grid" id="colors"></div>
     </div>
-  </section>
 
-  <footer>
-    <p>Colorname.xyz by <a href="http://jusv.co" target="_blank">Justina</a></p>
-  </footer>
+    <!-- color palettes -->
 
-</body>
+    <section class="container" id="147">
+      <h2>147 Colors</h2>
+      <div class="grid" id="colorGrid"></div>
+    </section>
+
+    <footer>
+      <p>
+        Colorname.xyz by <a href="http://jusv.co" target="_blank">Justina</a>
+      </p>
+    </footer>
+  </body>
 </html>

@@ -43,7 +43,7 @@ footer {
 
 .grid:before,
 .grid:after {
-  content: '';
+  content: "";
   display: block;
 }
 
@@ -52,6 +52,7 @@ footer {
 }
 
 .box {
+  display: flex;
   background: inherit;
   border: 6px solid rgba(255, 255, 255, 0);
   float: left;
@@ -59,7 +60,7 @@ footer {
   line-height: 1;
   min-width: 120px;
   overflow: hidden;
-  padding: .2em;
+  padding: 0.2em;
   text-align: center;
 }
 
@@ -69,6 +70,17 @@ footer {
 
 .box p:first-of-type {
   font-weight: 700;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: auto;
 }
 
 button {
@@ -242,7 +254,7 @@ button {
 .darkgray-bg,
 .de-bg {
   background: DarkGray;
-  background: #A9A9A9;
+  background: #a9a9a9;
   color: #ffffff;
 }
 
@@ -420,7 +432,7 @@ button {
 }
 
 .hd-bg,
-.honeydew-bg{
+.honeydew-bg {
   background: HoneyDew;
   color: #262626;
 }
@@ -978,13 +990,13 @@ button {
   }
 }
 
-@media screen and (max-width:1199px) and (min-width:700px) {
+@media screen and (max-width: 1199px) and (min-width: 700px) {
   .box {
     width: 25%;
   }
 }
 
-@media screen and (max-width:699px) {
+@media screen and (max-width: 699px) {
   .box {
     width: 50%;
   }
