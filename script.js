@@ -1,17 +1,3 @@
-$(document).ready(function() {
-  // 	pick any color you like
-  $(".box").click(function() {
-    $(this)
-      .clone()
-      .appendTo("#colors");
-  });
-
-  //  startover
-  $("button").click(function() {
-    $("#colors").empty();
-  });
-});
-
 d3.csv("colors.csv", function(error, data) {
   if (error) return console.warn(error);
 
@@ -44,8 +30,20 @@ d3.csv("colors.csv", function(error, data) {
     return d.hex;
   });
 
-  // var box = d3.select(".box");
-  // box.on("click", function(){
-  //   // write function to clone + append boxes to #colors
-  // })
+  var box = d3.selectAll(".circle");
+  box.on("click", function() {
+    var cloneBox = d3.select(this.parentNode).html();
+    var colors = d3
+      .select("#colors")
+      .append("div")
+      .attr("class", "box")
+      .append("div")
+      .attr("class", "wrapper")
+      .html(cloneBox);
+  });
+
+  var clearBtn = d3.select("button");
+  clearBtn.on("click", function() {
+    d3.selectAll("#colors > div").remove();
+  });
 });
