@@ -25,7 +25,6 @@ darkcyan,#008B8B,"0,139,139",dc-bg
 darkgoldenrod,#B8860B,"184,134,11",dgr-bg
 darkgray,#A9A9A9,"169,169,169",de-bg
 darkgreen,#006400,"0,100,0",dg-bg
-darkgrey,#A9A9A9,"169,169,169",de-bg
 darkkhaki,#BDB76B,"189,183,107",dk-bg
 darkmagenta,#8B008B,"139,0,139",dm-bg
 darkolivegreen,#556B2F,"85,107,47",dog-bg
@@ -36,13 +35,11 @@ darksalmon,#E9967A,"233,150,122",ds-bg
 darkseagreen,#8FBC8F,"143,188,143",dsg-bg
 darkslateblue,#483D8B,"72,61,139",dsb-bg
 darkslategray,#2F4F4F,"47,79,79",dse-bg
-darkslategrey,#2F4F4F,"47,79,79",dse-bg
 darkturquoise,#00CED1,"0,206,209",dt-bg
 darkviolet,#9400D3,"148,0,211",dv-bg
 deeppink,#FF1493,"255,20,147",dp-bg
 deepskyblue,#00BFFF,"0,191,255",dyb-bg
 dimgray,#696969,"105,105,105",di-bg
-dimgrey,#696969,"105,105,105",di-bg
 dodgerblue,#1E90FF,"30,144,255",dob-bg
 firebrick,#B22222,"178,34,34",fb-bg
 floralwhite,#FFFAF0,"255,250,240",fw-bg
@@ -55,7 +52,6 @@ goldenrod,#DAA520,"218,165,32",gr-bg
 gray,#808080,"128,128,128",ge-bg
 green,#008000,"0,128,0",g-bg
 greenyellow,#ADFF2F,"173,255,47",gy-bg
-grey,#808080,"128,128,128",ge-bg
 honeydew,#F0FFF0,"240,255,240",hd-bg
 hotpink,#FF69B4,"255,105,180",hp-bg
 indianred,#CD5C5C,"205,92,92",ir-bg
@@ -72,13 +68,11 @@ lightcyan,#E0FFFF,"224,255,255",lc-bg
 lightgoldenrodyellow,#FAFAD2,"250,250,210",lgry-bg
 lightgray,#D3D3D3,"211,211,211",le-bg
 lightgreen,#90EE90,"144,238,144",lg-bg
-lightgrey,#D3D3D3,"211,211,211",le-bg
 lightpink,#FFB6C1,"255,182,193",lp-bg
 lightsalmon,#FFA07A,"255,160,122",ls-bg
 lightseagreen,#20B2AA,"32,178,170",lsg-bg
 lightskyblue,#87CEFA,"135,206,250",lsb-bg
 lightslategray,#778899,"119,136,153",lse-bg
-lightslategrey,#778899,"119,136,153",lse-bg
 lightsteelblue,#B0C4DE,"176,196,222",lsl-bg
 lightyellow,#FFFFE0,"255,255,224",ly-bg
 lime,#00FF00,"0,255,0",lm-bg
@@ -131,7 +125,6 @@ silver,#C0C0C0,"192,192,192",si-bg
 skyblue,#87CEEB,"135,206,235",sb-bg
 slateblue,#6A5ACD,"106,90,205",sl-bg
 slategray,#708090,"112,128,144",se-bg
-slategrey,#708090,"112,128,144",se-bg
 snow,#FFFAFA,"255,250,250",so-bg
 springgreen,#00FF7F,"0,255,127",sr-bg
 steelblue,#4682B4,"70,130,180",su-bg
